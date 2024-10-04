@@ -1,0 +1,14 @@
+.Utilisateur {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.info-util {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info-util p {
+    margin-right: 1rem;
+}

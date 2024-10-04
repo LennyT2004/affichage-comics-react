@@ -1,0 +1,30 @@
+.ListeCommentaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid var(--couleur-bordure);
+    width: 30vw;
+    height: 90vh;
+}
+
+.scrollableArea {
+    overflow-y: auto;
+    height: 100%;
+    width: 80%;
+}
+
+.scrollableArea li {
+    list-style: none;
+}
+
+.BarreAjoutCommentaire {
+    position: sticky;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .ListeCommentaire {
+        width: 100vw;
+    }
+}

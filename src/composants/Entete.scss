@@ -1,0 +1,14 @@
+.Entete {
+    background-color: var(--couleur-highlight1);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Entete h1 {
+    font-family: 'abolition', sans-serif;
+    color: var(--couleur-highlight2);
+    font-size: 4rem;
+}

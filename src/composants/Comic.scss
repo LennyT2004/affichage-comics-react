@@ -1,0 +1,63 @@
+.Comic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    background: linear-gradient(300deg, #fafafa, #00bfff);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Comic .section-bande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Comic .cont-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3rem;
+}
+
+.Comic .cont-central button {
+    height: 4rem;
+    width: 4rem;
+}
+
+.Comic img {
+    width: 80%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .Comic {
+        width: 97vw;
+    }
+}

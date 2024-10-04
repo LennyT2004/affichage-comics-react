@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+:root {
+  --couleur-principale: #fafafa;
+  --couleur-highlight1: #ffd700;
+  --couleur-highlight2: #00bfff;
+  --couleur-texte: #333333;
+  --couleur-lien: #007bff;
+  --couleur-bordure: #dddddd;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

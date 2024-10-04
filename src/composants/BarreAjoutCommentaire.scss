@@ -1,0 +1,24 @@
+.BarreAjoutCommentaire {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 15%;
+    border-top: 5px solid var(--couleur-bordure);
+    border-bottom: 5px solid var(--couleur-bordure);
+    background-color: var(--couleur-bordure);
+    z-index: 1;
+}
+
+.BarreAjoutCommentaire form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.BarreAjoutCommentaire form input[type=text] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}

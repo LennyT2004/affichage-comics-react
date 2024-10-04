@@ -1,0 +1,28 @@
+.Commentaire {
+    width: 100%;
+}
+
+.comm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+    height: 60%;
+    border: 1px solid var(--couleur-bordure);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px var(--couleur-highlight2);
+}
+
+.ident-util {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ident-util h3 {
+    font-size: 1.5rem;
+}
+.Commentaire p {
+    font-size : 1.4rem;
+    margin-bottom: 2rem;
+}
